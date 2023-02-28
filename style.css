@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .nav-link {
     color: black;
 }
@@ -7,18 +9,43 @@
 .nvb{
     font-weight: bolder;
 }
+
 .isi{
     display: flex;
 }
-.bgimg{
-    right: 170px;
+.isi2{
+    width: 600px;
+    font-family: poppins;
+    text-align: justify;
+    margin-left: 28px;
 }
+.garis{
+    width: 650px;
+    height: 4px;
+    background-color: black;
+    margin-left: 28px;
+}
+.bola{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    right: 540px;
+    top: 261.5px;
+    display: flex;
+    border-radius: 50%;
+}
+.bgimg{
+    right: 140px;
+    z-index: -1;
+}
+
 .ellipse{
     background-color: #2C87F2;
     height: 400px;
     width: 400px;
     border-radius: 50%;
     right: 150px;
+    z-index: -3;
 }
 .ellipse1{
     border: 10px solid #2C87F2;
@@ -27,4 +54,71 @@
     border-radius: 50%;
     right:450px;
     bottom: -160px;
+    z-index: -2;
+}
+
+.button {
+    background-color: #808080; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 79px;
+}
+.button:hover{
+    background-color: #2C87F2;
+    color: black;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.a:hover{
+    color: black;
+}
+
+/* Animated text */
+.animation {
+    height: 50px;
+    margin-top: -5px;
+    font-size: 39px;
+    overflow:hidden;
+    margin-left: 1rem;
+}
+.animation > div > div {
+    height:calc(1.550rem + 1.5vw);
+    margin-bottom: calc(1.550rem + 1.5vw);
+    display:inline-block;
+}
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+.first div {
+    color: #C50A0A;
+}
+.second div {
+    color: #20c50a;
+}
+.third div {
+    color: #0ac5ac;
+}
+
+@keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
 }
