@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: Akira; /*memberikan nama bebas untuk font*/
+    src: url('font/Akira\ Expanded\ Demo.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
 
+
+.akira{
+    font-family: Akira;
+}
 .nav-link {
     color: black;
 }
@@ -19,11 +28,22 @@
     text-align: justify;
     margin-left: 28px;
 }
+.isi3{
+    width: 100%;
+    font-family: poppins;
+    text-align: center;
+    font-weight: bold;
+}
 .garis{
     width: 650px;
     height: 4px;
     background-color: black;
     margin-left: 28px;
+}
+.garis2{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(39, 39, 39);
 }
 .bola{
     background-color: black;
@@ -71,6 +91,7 @@
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 79px;
+    letter-spacing: 0.2rem;
 }
 .button:hover{
     background-color: #2C87F2;
@@ -90,6 +111,19 @@
     word-spacing: 20px;
     box-shadow: 0px -9px 40px lightgrey;
 }
+
+.ppabout{
+    margin-top: 40px;
+    width: 300px;
+    height: 285px;
+    background-image: url(/image/People.png);
+    background-size: 500px;
+    background-position: -100px 10px;
+    border-radius: 50%;
+    background-color: #2C87F2;
+    transform: scaleX(-1);
+}
+
 
 /* Animated text */
 .animation {
@@ -114,7 +148,7 @@
     color: #20c50a;
 }
 .third div {
-    color: #0ac5ac;
+    color: #b60ac5;
 }
 
 @keyframes text-animation {
