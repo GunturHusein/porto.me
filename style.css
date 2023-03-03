@@ -78,7 +78,7 @@
 }
 
 .button {
-    background-color: #808080; /* Green */
+    background-color: #808080;
     border: none;
     color: white;
     padding: 15px 25px;
@@ -160,6 +160,25 @@
     {background-position: 180px}
   100%
     {background-position: 180px}
+}
+
+.iconlink{
+    color: #303030;
+}
+.iconlink:hover{
+    color: #2C87F2;
+}
+
+.doublearrow{
+    color: #4d4d4d;
+}
+.doublearrow:hover{
+    color: #2C87F2;
+}
+
+.lengkung{
+    border-radius: 30px;
+    background-color: #2c88f28c;
 }
 
 /* Animated text */
