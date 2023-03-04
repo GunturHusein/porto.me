@@ -127,7 +127,7 @@
 .kotak{
     width: 700px;
     height: 100px;
-    background-color: #2c88f27e; 
+    background-color: #4444448f; 
     background-image: linear-gradient(to right, #2c88f27e , rgba(255, 255, 255, 0.904));
     border-radius: 30px;
     margin-top: 40px;
@@ -143,24 +143,7 @@
 .text-org{
     color: #f28c2c;
 }
-.panah{
-  color: #ffffff;
-  background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
-  -webkit-text-fill-color: transparent;
-  animation: shine 3s infinite linear;
-  animation-fill-mode: forwards;
-  -webkit-text-size-adjust: none;
-  text-decoration: none;
-  white-space: nowrap;
-}
-@keyframes shine{
-  0%
-    {background-position: 0}
-  60%
-    {background-position: 180px}
-  100%
-    {background-position: 180px}
-}
+
 
 .iconlink{
     color: #303030;
@@ -180,6 +163,8 @@
     border-radius: 30px;
     background-color: #2c88f28c;
 }
+
+
 
 /* Animated text */
 .animation {
